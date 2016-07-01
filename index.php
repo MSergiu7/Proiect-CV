@@ -21,7 +21,7 @@
   <body>
     <h1>Cv Website</h1>
     <h4>Tagline goes here.</h4>
-    <h5>Just a test</h5>
+    <a href="view.php">link view</a>
     <div class="row">
       <div class="col-md-4">
         <img src="http://placehold.it/350x250">
