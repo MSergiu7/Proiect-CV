@@ -1,21 +1,181 @@
 /***** General *****/
-
 body {
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
+
 }
 
 h1{
 	margin-top: 75px;
 	font-weight: bold;
+	text-align: center;
 }
 
 h4{
+	text-align: center;
+}
+
+h5{
+	text-align: center;
+	padding-top: 30px;
 	padding-bottom: 75px;
+}
+
+.row {
+	margin-bottom: 50px; !important
+}
+
+a, a:focus, a:hover {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+/***** Search *****/
+
+.search-input{
+	margin-top: 30px;
+	height: 30px;
+	outline: 0;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+	padding-left: 12px;
+	color: #a8a8a8;
+	width: 160px;
+	position: absolute;
+	right: 120px;
+}
+
+.fa-search {
+	padding-top: 37px;
+	padding-right: 12px;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+   padding-left: 2px;
+	 font-style: italic;
+	 color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding-left: 2px;
+	 font-style: italic;
+	 color: #ccc;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding-left: 2px;
+	 font-style: italic;
+	 color: #ccc;
+}
+
+:-ms-input-placeholder {
+   padding-left: 2px;
+	 font-style: italic;
+	 color: #ccc;
+}
+
+
+/***** Navigation *****/
+
+.container-fluid{
+	padding: 0;
+}
+
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-collapse{
+	padding: 0;
+}
+
+.navbar-default{
+	border: none;
+	outline: 0;
+	margin-bottom: 90px;
+	background-color: #fff;
+}
+
+.navbar-nav li{
+	float: none;
+	display: inline-block;
+}
+
+.navbar-nav li a {
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #A689C9;
+	color: #fff;
 }
 
 /***** CV pics *****/
 
+.photo{
+	width: 150px;
+	height: 150px;
+}
+
+.infos {
+	color: #808080;
+}
+
 .cv-image {
 	background: url('http://placehold.it/350x150');
+}
+
+.name {
+	margin-top: 0;
+	color: #333;
+	padding:0;
+	text-align: left;
+	font-weight: 600;
+}
+
+.icon {
+	padding-right: 5px;
+}
+
+/***** About us *****/
+
+form{
+	margin-top: 15px;
+	padding-left: 15px;
+	line-height: 25px;
+}
+
+.contact-p{
+	padding-left: 15px;
+}
+
+.about-title{
+	margin-top: 0;
+	text-align: left;
+}
+
+.about-content{
+	margin-top: 20px;
+}
+
+/***** Submit your CV *****/
+
+.callout{
+	text-align: center;
+}
+
+.submit-btn{
+	background-color: #A689C9;
+	padding: 10px;
+	color: #fff;
+	border: none;
+	outline: 0;
+	margin-top: 10px;
+	width: 100px;
+}
+
+.submit-btn:hover{
+	background-color: #705194;
 }

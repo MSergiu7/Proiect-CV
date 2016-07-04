@@ -45,13 +45,34 @@
             <ul class="nav navbar-nav">
               <li class="active" ><a href="index.php">Home</a></li>
               <li><a href="about-us.php">About Us</a></li>
-              <li><a href="submit-cv.php">Submit your CV</a></li>
+              <li><a href="#">Submit your CV</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
     </div>
-    <?php include 'home-content.php'; ?>
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="callout">
+        <h2>You want to get hired fast? Submit your CV!</h2>
+        <p>Proin dui massa, dignissim a scelerisque ac, suscipit ut risus. Nam at nunc in elit ultricies convallis. Vestibulum felis metus, dapibus vel sagittis eget, fermentum in leo. Ut feugiat lectus at nibh aliquet varius.</p>
+
+      </div>
+    </div>
+
+    <div class="col-sm-10 col-sm-offset-3">
+      <h3 class="contact-p">Get in touch with us.</h3>
+      <form class="contact-form" action="index.html" method="post">
+        <label for="name">Name: </label><br>
+        <input type="text" name="name" value=""><br>
+        <label for="email">Email: </label><br>
+        <input type="text" name="email" value=""><br>
+        <label for="sub">Subject: </label><br>
+        <input type="text" name="sub" value=""><br>
+        <label for="msj">Message: </label><br>
+        <textarea name="msj" rows="8" cols="40"></textarea><br>
+        <input class="submit-btn" type="button" name="name" value="Submit">
+      </form>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
