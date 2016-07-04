@@ -43,7 +43,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="active" ><a href="index.php">Home</a></li>
+              <li class="active"><a href="index.php">Home</a></li>
               <li><a href="about-us.php">About Us</a></li>
               <li><a href="submit-cv.php">Submit your CV</a></li>
             </ul>
@@ -51,7 +51,40 @@
         </div><!-- /.container-fluid -->
       </nav>
     </div>
-    <?php include 'home-content.php'; ?>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-3">
+            <a href="#"><img class="img-responsive" src="http://placehold.it/250x250"></a>
+          </div>
+          <div class="col-sm-9">
+            <h2 class="about-title">We are having fun coding this website!</h2>
+            <p class="about-content">
+              Pra esent dictum purus sed turpis ultrices tempus. Aenean non consectetur nulla, in iaculis arcu. Vestibulum leo nulla, posuere eget urna non, faucibus ullamcorper mauris. Sed tincidunt, nisl ut bibendum egestas, augue felis efficitur augue, vel dictum justo mi nec felis. Suspendisse tincidunt libero in lorem sodales volutpat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+
+          <h3 class="contact-p">Get in touch with us.</h3>
+          <form class="contact-form" action="index.html" method="post">
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" value=""><br>
+            <label for="email">Email: </label><br>
+            <input type="text" name="email" value=""><br>
+            <label for="sub">Subject: </label><br>
+            <input type="text" name="sub" value=""><br>
+            <label for="msj">Message: </label><br>
+            <textarea name="msj" rows="8" cols="40"></textarea><br>
+            <input class="submit-btn" type="button" name="name" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
