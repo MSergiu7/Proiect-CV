@@ -30,6 +30,16 @@ a, a:focus, a:hover {
 
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #333;
+	opacity: 0.2;
+	margin: 10px 0;
+}
+
+
+
 /***** Search *****/
 
 .search-input{
@@ -114,11 +124,6 @@ a, a:focus, a:hover {
 
 /***** CV pics *****/
 
-.photo{
-	width: 150px;
-	height: 150px;
-}
-
 .infos {
 	color: #808080;
 }
@@ -178,4 +183,50 @@ form{
 
 .submit-btn:hover{
 	background-color: #705194;
+}
+
+/***** Details *****/
+
+.photo{
+	position: relative;
+	margin-left: 15px;
+}
+
+.title{
+	margin: 0;
+}
+
+.p-icon{
+	position: absolute;;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #705194;
+}
+
+.item-title{
+	text-align: left;
+	margin-top: 0;
+}
+
+.social-icon{
+	margin-right: 10px;
+}
+
+/***** Media Queries *****/
+
+@media screen and (max-width: 768px) {
+	.photo{
+		margin-bottom: 15px;
+		margin-left: -1px;
+		width: 150px;
+		height: 150px;
+	}
+	.col-sm-3{
+		text-align: left;
+	}
+	.p-icon{
+		position: static;
+		margin-bottom: 20px;
+		padding-left: 36px;
+	}
 }
