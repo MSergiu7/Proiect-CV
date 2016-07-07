@@ -11,7 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="search"><input class="pull-right search-input" type="text" name="search-cv" placeholder="find a cv..."></div>
+      <div class="search"><input id="search-filter" class="pull-right search-input" type="text" name="search-cv" placeholder="find a cv..."></div>
       <i class="fa fa-search fa-lg pull-right" aria-hidden="true"></i>
     </div>
     <h1><a href="index.php">CV Online</a></h1>

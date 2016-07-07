@@ -11,7 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -86,6 +86,19 @@
             <h4 class="item-title">Full Name</h4>
             <hr>
             <p>John Smith</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-3">
+            <i class="fa fa-dot-circle-o fa-3x p-icon" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-9">
+            <h4 class="item-title">Address</h4>
+            <hr>
+            <p>Green Street, New York, NY</p>
           </div>
         </div>
       </div>
@@ -215,6 +228,44 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-9">
+            <h2 class="title">Languages</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-3">
+            <i class="fa fa-dot-circle-o fa-3x p-icon" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-9">
+            <h4 class="item-title">Romanian</h4>
+            <hr>
+            <p><i>Mother Language</i></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-3">
+            <i class="fa fa-dot-circle-o fa-3x p-icon" aria-hidden="true"></i>
+          </div>
+          <div class="col-sm-9">
+            <h4 class="item-title">English</h4>
+            <hr>
+            <p><i>Secondary Language</i></p>
+          </div>
+        </div>
+      </div>
+
+
+
 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
