@@ -25,6 +25,10 @@ h5{
 	margin-bottom: 50px; !important
 }
 
+.col-sm-4{
+	margin-top: 25px;
+}
+
 a, a:focus, a:hover {
 	text-decoration: none;
 	color: inherit;

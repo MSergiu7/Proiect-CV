@@ -2,7 +2,7 @@
 	$hostname="localhost";
 	$username="root";
 	$password="";
-	$db="testdb";
+	$db="cv-uri";
 
 	$conexiune = mysqli_connect($hostname,$username,$password)
 	or die ("Unable to connect to mysql");
